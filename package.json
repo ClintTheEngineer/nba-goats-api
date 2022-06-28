@@ -1,0 +1,16 @@
+{
+  "name": "faux-api",
+  "version": "0.0.1",
+  "description": "API building practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Big Daddy Clint",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^17.6.0"
+  }
+}
