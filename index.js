@@ -1,10 +1,13 @@
 const express = require('express');
 const Joi = require('joi');
 const app = express();
-//const cors = require('cors');
+const cors = require('cors');
 app.use(express.json());
-app.use(express.cors());
+app.use(cors());
+const bodyParser = require('body-parser');
 
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 
 const GOATS = [
@@ -35,6 +38,10 @@ app.get('/api/goats/:id', (req, res) => {
     res.send(goat);
 });
 
+app.get('/', cors(), (req, res) => {
+    res.status(200).json({ message: 'Enable CORS' });
+  });
+  
 //CREATE Request Handlers
 app.post('/api/goats', (req, res) => {
     const { error } = validateGoat(req.body);
