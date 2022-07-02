@@ -23,7 +23,7 @@ const GOATS = [
 ];
 
 //READ Request Handlers
-app.get('/', (req, res) => {
+app.get('/', cors(), (req, res) => {
     res.send('Hello World!');
 });
 
@@ -37,10 +37,7 @@ app.get('/api/goats/:id', (req, res) => {
     res.send(goat);
 });
 
-app.get('/', cors(), (req, res) => {
-    res.status(200).json({ message: 'Enable CORS' });
-  });
-  
+
 //CREATE Request Handlers
 app.post('/api/goats', (req, res) => {
     const { error } = validateGoat(req.body);
