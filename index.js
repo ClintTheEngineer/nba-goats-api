@@ -22,10 +22,10 @@ const GOATS = [
     { id: 1, name: 'LeBron James', position: 'SF', team: 'LA Lakers', height: '6-9', weight: '250 lbs', GOATscore: '🐐🐐🐐🐐🐐' },
     { id: 2, name: 'Michael Jordan', position: 'SG', team: 'Chicago Bulls', height: '6-6', weight: '198 lbs', GOATscore: '🐐🐐🐐🐐🐐' },  
     { id: 3, name: 'Kareem Abdul-Jabbar', position: 'C', team: 'LA Lakers', height: '7-2', weight: '225 lbs', GOATscore: '🐐🐐🐐🐐🐐' },
-    { id: 4, name: 'Tim Duncan', position: 'SG', team: 'Chicago Bulls', height: '6-11', weight: '250 lbs', GOATscore: '🐐🐐🐐🐐' },
-    { id: 5, name: 'Magic Johnson', position: 'SG', team: 'Chicago Bulls', height: '6-9', weight: '215 lbs', GOATscore: '🐐🐐🐐🐐' },
+    { id: 4, name: 'Tim Duncan', position: 'C', team: 'Chicago Bulls', height: '6-11', weight: '250 lbs', GOATscore: '🐐🐐🐐🐐' },
+    { id: 5, name: 'Magic Johnson', position: 'PG', team: 'Chicago Bulls', height: '6-9', weight: '215 lbs', GOATscore: '🐐🐐🐐🐐' },
     { id: 6, name: 'Wilt Chamberlain', position: 'C', team: 'LA Lakers', height: '7-1', weight: '275 lbs', GOATscore: '🐐🐐🐐🐐' },
-    { id: 7, name: 'Larry Bird', position: 'SG', team: 'Chicago Bulls', height: '6-9', weight: '220 lbs', GOATscore: '🐐🐐🐐🐐' },
+    { id: 7, name: 'Larry Bird', position: 'SF', team: 'Chicago Bulls', height: '6-9', weight: '220 lbs', GOATscore: '🐐🐐🐐🐐' },
     { id: 8, name: 'Bill Russell', position: 'C', team: 'Boston Celtics', height: '6-10', weight: '215 lbs', GOATscore: '🐐🐐🐐🐐' },
     { id: 9, name: 'Hakeem Olajuwon', position: 'C', team: 'Toronto Raptors', height: '7-0', weight: '255 lbs', GOATscore: '🐐🐐🐐🐐' },
     { id: 10, name: 'Stephen Curry', position: 'PG', team: 'Golden State Warriors', height: '6-2', weight: '185 lbs', GOATscore: '🐐🐐🐐' }
